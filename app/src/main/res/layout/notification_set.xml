@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Stay Updated"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_shape"
+        android:layout_gravity="center"
+        android:id="@+id/updating_btn"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel Updates"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:background="@drawable/btn_shape"
+        android:layout_gravity="center"
+        android:id="@+id/cancel_btn"/>
+
+</LinearLayout>
